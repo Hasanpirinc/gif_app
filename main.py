@@ -7,7 +7,7 @@ video = cv2.VideoCapture("video path")
 
 images = []
 
-# Videoyu başlangıç ve bitiş kareleri arasında okuyun
+# Beginning and ending frames of the video
 start_frame = 1
 end_frame = 40
 for i in range(start_frame, end_frame):
